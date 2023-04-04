@@ -6,7 +6,7 @@ import { Exercise } from "@screens/Exercise";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
-export function AppROutes() {
+export function AppRoutes() {
   return (
     <Navigator>
       <Screen name="home" component={Home} />
